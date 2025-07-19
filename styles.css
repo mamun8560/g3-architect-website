@@ -1,0 +1,47 @@
+.montserrat-normal {
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+/*shared styles*/
+
+.display-flex{
+    display: flex;
+}
+:root{
+    --text-gray:#424242;
+    --text-light-gray:#727272;
+    --primary-background:rgba(255, 144, 14, 0.1);
+}
+
+
+/*header style*/
+
+.header{
+    background-color: var(--primary-background);
+
+}
+
+/*navbar related styles*/
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+.nav-item{
+    
+}
+
+.nav-link{
+    display: flex;
+    list-style: none;
+    text-decoration: none;
+    margin-right: 30px;
+    font-weight: 500;
+    color: var(--text-gray) ;
+}
+.navbar, .banner{
+    max-width: 1440px;
+    margin: 0 auto;
+}
